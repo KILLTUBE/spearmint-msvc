@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{271a05c3-0ac2-4e8b-add5-6d6897701a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jpeg">
+      <UniqueIdentifier>{405f747c-edaa-4dbb-8267-570caf9146dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderercommon">
+      <UniqueIdentifier>{48a0d0c4-2df3-4344-87f2-908707a90a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderergl1">
+      <UniqueIdentifier>{345e79cd-408a-4676-a253-0200ea0ff205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdl">
+      <UniqueIdentifier>{85b414ab-b081-44ca-9f85-43c99d033435}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="spearmint\code\sdl\sdl_gamma.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sdl\sdl_glimp.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jaricom.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcapimin.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcapistd.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcarith.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jccoefct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jccolor.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcdctmgr.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jchuff.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcinit.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcmainct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcmarker.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcmaster.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcomapi.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcparam.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcprepct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcsample.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jctrans.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdapimin.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdapistd.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdarith.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdatadst.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdatasrc.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdcoefct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdcolor.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jddctmgr.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdhuff.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdinput.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmainct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmarker.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmaster.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmerge.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdpostct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdsample.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdtrans.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jerror.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jfdctflt.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jfdctfst.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jfdctint.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jidctflt.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jidctfst.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jidctint.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jmemmgr.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jmemnobs.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jquant1.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jquant2.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jutils.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_altivec.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_animation.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_animation_mdm.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_animation_mds.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_backend.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_bsp.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_cmds.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_cmesh.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_curve.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_flares.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_image.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_init.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_light.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_main.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_marks.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_mesh.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_model.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_model_iqm.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_model_tan.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_scene.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_shade.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_shade_calc.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_shader.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_shadows.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_sky.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_subs.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_surface.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderergl1\tr_world.c">
+      <Filter>renderergl1</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_font.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_bmp.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_dds.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_ftx.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_jpg.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_pcx.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_png.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_image_tga.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\renderercommon\tr_noise.c">
+      <Filter>renderercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\puff.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spearmint\code\jpeg-8c\jconfig.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jdct.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jerror.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jinclude.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jmemsys.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jmorecfg.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jpegint.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jpeglib.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jversion.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderergl1\tr_local.h">
+      <Filter>renderergl1</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderercommon\anorms256.h">
+      <Filter>renderercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderercommon\iqm.h">
+      <Filter>renderercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderercommon\qgl.h">
+      <Filter>renderercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderercommon\tr_common.h">
+      <Filter>renderercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderercommon\tr_public.h">
+      <Filter>renderercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\renderercommon\tr_types.h">
+      <Filter>renderercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\puff.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
