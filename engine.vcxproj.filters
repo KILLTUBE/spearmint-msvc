@@ -4,9 +4,6 @@
     <Filter Include="client">
       <UniqueIdentifier>{2cc75f6e-3ea9-4e02-8598-db55d9325bbd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="jpeg">
-      <UniqueIdentifier>{f240b86c-21a8-4413-8555-d2c5ad574a9c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="asm">
       <UniqueIdentifier>{399c7c38-63f1-4dbf-8aa6-376837dd7d78}</UniqueIdentifier>
     </Filter>
@@ -116,144 +113,6 @@
     </ClCompile>
     <ClCompile Include="spearmint\code\client\snd_wavelet.c">
       <Filter>client</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jaricom.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcapimin.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcapistd.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcarith.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jccoefct.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jccolor.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcdctmgr.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jchuff.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcinit.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcmainct.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcmarker.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcmaster.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcomapi.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcparam.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcprepct.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jcsample.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jctrans.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdapimin.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdapistd.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdarith.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdatadst.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdatasrc.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdcoefct.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdcolor.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jddctmgr.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdhuff.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdinput.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdmainct.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdmarker.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdmaster.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdmerge.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdpostct.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdsample.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jdtrans.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jerror.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jfdctflt.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jfdctfst.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jfdctint.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jidctflt.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jidctfst.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jidctint.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jmemmgr.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jmemnobs.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jquant1.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jquant2.c">
-      <Filter>jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\jpeg-8c\jutils.c">
-      <Filter>jpeg</Filter>
     </ClCompile>
     <ClCompile Include="spearmint\code\asm\ftola.c">
       <Filter>asm</Filter>
@@ -551,33 +410,6 @@
     <ClInclude Include="spearmint\code\client\snd_public.h">
       <Filter>client</Filter>
     </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jconfig.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jdct.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jerror.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jinclude.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jmemsys.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jmorecfg.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jpegint.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jpeglib.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\jpeg-8c\jversion.h">
-      <Filter>jpeg</Filter>
-    </ClInclude>
     <ClInclude Include="spearmint\code\asm\qasm.h">
       <Filter>asm</Filter>
     </ClInclude>
@@ -772,10 +604,5 @@
     <None Include="spearmint\code\asm\vm_x86_64.asm">
       <Filter>asm</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="spearmint\code\sys\win_resource.rc">
-      <Filter>sys</Filter>
-    </ResourceCompile>
   </ItemGroup>
 </Project>
