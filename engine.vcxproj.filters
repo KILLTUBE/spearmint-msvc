@@ -288,12 +288,6 @@
     <ClCompile Include="spearmint\code\qcommon\vm_x86.c">
       <Filter>qcommon</Filter>
     </ClCompile>
-    <ClCompile Include="spearmint\code\sdl\sdl_gamma.c">
-      <Filter>sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="spearmint\code\sdl\sdl_glimp.c">
-      <Filter>sdl</Filter>
-    </ClCompile>
     <ClCompile Include="spearmint\code\sdl\sdl_input.c">
       <Filter>sdl</Filter>
     </ClCompile>
@@ -541,9 +535,6 @@
     </ClInclude>
     <ClInclude Include="spearmint\code\qcommon\vm_local.h">
       <Filter>qcommon</Filter>
-    </ClInclude>
-    <ClInclude Include="spearmint\code\sdl\sdl_icon.h">
-      <Filter>sdl</Filter>
     </ClInclude>
     <ClInclude Include="spearmint\code\server\server.h">
       <Filter>server</Filter>

@@ -79,10 +79,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_LOCAL_HEADERS;BOTLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_LOCAL_HEADERS;BOTLIB;USE_RENDERER_DLOPEN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>user32.lib;advapi32.lib;winmm.lib;wsock32.lib;ws2_32.lib;D:\ztm\spearmint-msvc\SDL2-2.0.8\VisualC\Win32\Debug\SDL2.lib;D:\ztm\spearmint-msvc\SDL2-2.0.8\VisualC\Win32\Debug\SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)spearmint_x86.exe</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -223,8 +224,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="spearmint\code\qcommon\vm_x86.c" />
-    <ClCompile Include="spearmint\code\sdl\sdl_gamma.c" />
-    <ClCompile Include="spearmint\code\sdl\sdl_glimp.c" />
     <ClCompile Include="spearmint\code\sdl\sdl_input.c" />
     <ClCompile Include="spearmint\code\sdl\sdl_snd.c" />
     <ClCompile Include="spearmint\code\server\sv_bot.c" />
@@ -237,7 +236,9 @@
     <ClCompile Include="spearmint\code\server\sv_rankings.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="spearmint\code\server\sv_ref.c" />
+    <ClCompile Include="spearmint\code\server\sv_ref.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="spearmint\code\server\sv_snapshot.c" />
     <ClCompile Include="spearmint\code\server\sv_world.c" />
     <ClCompile Include="spearmint\code\sys\con_log.c" />
@@ -321,7 +322,6 @@
     <ClInclude Include="spearmint\code\qcommon\surfaceflags.h" />
     <ClInclude Include="spearmint\code\qcommon\unzip.h" />
     <ClInclude Include="spearmint\code\qcommon\vm_local.h" />
-    <ClInclude Include="spearmint\code\sdl\sdl_icon.h" />
     <ClInclude Include="spearmint\code\server\server.h" />
     <ClInclude Include="spearmint\code\sys\sys_loadlib.h" />
     <ClInclude Include="spearmint\code\sys\sys_local.h" />
