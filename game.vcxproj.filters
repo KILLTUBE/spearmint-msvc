@@ -12,7 +12,7 @@
       <UniqueIdentifier>{87c7d828-ad50-45ba-a3d1-be5792763db0}</UniqueIdentifier>
     </Filter>
     <Filter Include="botlib">
-      <UniqueIdentifier>{e91cee13-396f-4c7a-97dc-2634f5fcacdb}</UniqueIdentifier>
+      <UniqueIdentifier>{8fbb2a3a-b106-4923-862c-eab2f89fbe49}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -151,57 +151,6 @@
     <ClCompile Include="..\mint-arena\code\game\g_weapon.c">
       <Filter>game</Filter>
     </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_bspq3.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_cluster.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_debug.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_entity.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_file.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_main.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_move.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_optimize.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_reach.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_route.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_routealt.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_sample.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\be_interface.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\l_crc.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\l_libvar.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\l_log.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\mint-arena\code\botlib\l_memory.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\mint-arena\code\qcommon\q_platform.h">
@@ -299,72 +248,6 @@
     </ClInclude>
     <ClInclude Include="..\mint-arena\code\game\syn.h">
       <Filter>game</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\aasfile.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_bsp.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_cluster.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_debug.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_def.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_entity.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_file.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_funcs.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_main.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_move.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_optimize.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_reach.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_route.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_routealt.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_sample.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\be_interface.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\botlib.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\l_crc.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\l_libvar.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\l_log.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\mint-arena\code\botlib\l_memory.h">
-      <Filter>botlib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

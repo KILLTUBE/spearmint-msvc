@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -115,23 +116,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_bspq3.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_cluster.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_debug.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_entity.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_file.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_main.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_move.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_optimize.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_reach.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_route.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_routealt.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_aas_sample.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\be_interface.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\l_crc.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\l_libvar.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\l_log.c" />
-    <ClCompile Include="..\mint-arena\code\botlib\l_memory.c" />
     <ClCompile Include="..\mint-arena\code\game\ai_char.c" />
     <ClCompile Include="..\mint-arena\code\game\ai_chat.c" />
     <ClCompile Include="..\mint-arena\code\game\ai_chat_sys.c" />
@@ -155,7 +139,9 @@
     <ClCompile Include="..\mint-arena\code\game\g_active.c" />
     <ClCompile Include="..\mint-arena\code\game\g_arenas.c" />
     <ClCompile Include="..\mint-arena\code\game\g_bot.c" />
-    <ClCompile Include="..\mint-arena\code\game\g_botlib.c" />
+    <ClCompile Include="..\mint-arena\code\game\g_botlib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\mint-arena\code\game\g_client.c" />
     <ClCompile Include="..\mint-arena\code\game\g_cmds.c" />
     <ClCompile Include="..\mint-arena\code\game\g_combat.c" />
@@ -179,28 +165,6 @@
     <ClCompile Include="..\mint-arena\code\qcommon\q_unicode.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\mint-arena\code\botlib\aasfile.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_bsp.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_cluster.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_debug.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_def.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_entity.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_file.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_funcs.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_main.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_move.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_optimize.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_reach.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_route.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_routealt.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_aas_sample.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\be_interface.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\botlib.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\l_crc.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\l_libvar.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\l_log.h" />
-    <ClInclude Include="..\mint-arena\code\botlib\l_memory.h" />
     <ClInclude Include="..\mint-arena\code\game\ai_char.h" />
     <ClInclude Include="..\mint-arena\code\game\ai_chat.h" />
     <ClInclude Include="..\mint-arena\code\game\ai_chat_sys.h" />
