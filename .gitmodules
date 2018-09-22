@@ -1,0 +1,6 @@
+[submodule "spearmint"]
+	path = spearmint
+	url = https://github.com/zturtleman/spearmint
+[submodule "mint-arena"]
+	path = mint-arena
+	url = https://github.com/zturtleman/mint-arena
