@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{17221c28-1555-46c4-ac17-2d2ad33ea8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{87c7d828-ad50-45ba-a3d1-be5792763db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="botlib">
+      <UniqueIdentifier>{e91cee13-396f-4c7a-97dc-2634f5fcacdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\mint-arena\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\qcommon\q_unicode.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_char.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_chat.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_chat_sys.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_cmd.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_dmnet.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_dmq3.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_ea.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_gen.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_goal.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_main.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_move.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_team.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_vcmd.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_weap.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\ai_weight.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\bg_lib.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\bg_misc.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\bg_pmove.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\bg_slidemove.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\bg_tracemap.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_active.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_arenas.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_bot.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_botlib.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_client.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_cmds.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_combat.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_items.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_main.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_misc.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_missile.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_mover.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_session.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_spawn.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_svcmds.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_syscalls.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_target.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_team.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_trigger.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_unlagged.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_utils.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\game\g_weapon.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_bspq3.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_cluster.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_debug.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_entity.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_file.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_main.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_move.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_optimize.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_reach.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_route.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_routealt.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_aas_sample.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\be_interface.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\l_crc.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\l_libvar.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\l_log.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\botlib\l_memory.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mint-arena\code\qcommon\q_platform.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\qcommon\q_unicode.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\qcommon\unicode_data.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_char.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_chat.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_chat_sys.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_cmd.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_dmnet.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_dmq3.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_ea.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_gen.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_goal.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_main.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_move.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_team.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_vcmd.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_weap.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\ai_weight.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\bg_lib.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\bg_local.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\bg_public.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\chars.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\g_local.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\g_public.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\g_syscalls.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\g_team.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\inv.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\match.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\game\syn.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\aasfile.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_bsp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_cluster.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_debug.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_def.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_entity.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_file.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_funcs.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_main.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_move.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_optimize.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_reach.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_route.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_routealt.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_aas_sample.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\be_interface.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\botlib.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\l_crc.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\l_libvar.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\l_log.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\botlib\l_memory.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\mint-arena\code\game\bg_syscalls.asm">
+      <Filter>game</Filter>
+    </None>
+  </ItemGroup>
+</Project>
