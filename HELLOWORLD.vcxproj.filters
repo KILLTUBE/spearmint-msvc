@@ -1,17 +1,781 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Quelldateien">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="client">
+      <UniqueIdentifier>{2cc75f6e-3ea9-4e02-8598-db55d9325bbd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headerdateien">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="jpeg">
+      <UniqueIdentifier>{f240b86c-21a8-4413-8555-d2c5ad574a9c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Ressourcendateien">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="asm">
+      <UniqueIdentifier>{399c7c38-63f1-4dbf-8aa6-376837dd7d78}</UniqueIdentifier>
     </Filter>
+    <Filter Include="autoupdater">
+      <UniqueIdentifier>{f39422cd-44e2-45a4-9c3c-4e88f272b438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autoupdater\rsa_tools">
+      <UniqueIdentifier>{25c9675f-0bb4-476d-99dc-5b2880f5f8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="botlib">
+      <UniqueIdentifier>{ef8097a9-fe78-43cd-bb8d-4cdfa6e521dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{fb45dcb5-1d75-4de2-9a5f-4e4b4934afbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdl">
+      <UniqueIdentifier>{e3c1f12d-56ee-48e5-943c-d27e282748e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{26fdbaa3-b742-43e3-9fb8-c0e15d3c2cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{ca85a3c8-312e-42ff-aba9-ae295f8be5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{4d9b09b3-543b-49a5-b99c-1efb0ba4abb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="spearmint\code\client\cl_avi.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_cgame.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_cin.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_console.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_curl.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_input.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_joystick.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_keys.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_main.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_net_chan.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_parse.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\cl_scrn.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\libmumblelink.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\qal.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_adpcm.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_altivec.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_codec.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_codec_mp3.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_codec_ogg.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_codec_opus.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_codec_wav.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_dma.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_main.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_mem.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_mix.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_openal.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\client\snd_wavelet.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jaricom.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcapimin.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcapistd.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcarith.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jccoefct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jccolor.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcdctmgr.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jchuff.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcinit.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcmainct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcmarker.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcmaster.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcomapi.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcparam.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcprepct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jcsample.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jctrans.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdapimin.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdapistd.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdarith.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdatadst.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdatasrc.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdcoefct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdcolor.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jddctmgr.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdhuff.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdinput.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmainct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmarker.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmaster.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdmerge.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdpostct.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdsample.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jdtrans.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jerror.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jfdctflt.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jfdctfst.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jfdctint.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jidctflt.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jidctfst.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jidctint.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jmemmgr.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jmemnobs.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jquant1.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jquant2.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\jpeg-8c\jutils.c">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\asm\ftola.c">
+      <Filter>asm</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\asm\snapvector.c">
+      <Filter>asm</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\autoupdater\autoupdater.c">
+      <Filter>autoupdater</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\autoupdater\rsa_tools\rsa_common.c">
+      <Filter>autoupdater\rsa_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\autoupdater\rsa_tools\rsa_make_keys.c">
+      <Filter>autoupdater\rsa_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\autoupdater\rsa_tools\rsa_sign.c">
+      <Filter>autoupdater\rsa_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\autoupdater\rsa_tools\rsa_verify.c">
+      <Filter>autoupdater\rsa_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_debug.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_entity.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_file.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_main.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_move.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_optimize.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_reach.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_route.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_routealt.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_sample.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_interface.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_crc.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_libvar.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_log.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_memory.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_precomp.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_script.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\l_struct.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_bspq3.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\botlib\be_aas_cluster.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp_ef2.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp_fakk.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp_mohaa.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp_q3.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp_q3test106.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\bsp_sof2.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cm_load.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cm_patch.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cm_polylib.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cm_test.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cm_trace.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cmd.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\common.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\cvar.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\files.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\huffman.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\ioapi.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\md4.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\md5.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\msg.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\net_chan.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\net_ip.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\puff.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\unzip.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\vm.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\vm_interpreted.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\vm_none.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\qcommon\vm_x86.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sdl\sdl_gamma.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sdl\sdl_glimp.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sdl\sdl_input.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sdl\sdl_snd.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_bot.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_ccmds.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_client.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_game.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_init.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_main.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_net_chan.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_rankings.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_ref.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_snapshot.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\server\sv_world.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\con_log.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\con_passive.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\con_tty.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\con_win32.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\sys_autoupdater.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\sys_main.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\sys\sys_win32.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="spearmint\code\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spearmint\code\client\cl_curl.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\keycodes.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\keys.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\libmumblelink.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\qal.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\snd_codec.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\snd_local.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\client\snd_public.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jconfig.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jdct.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jerror.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jinclude.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jmemsys.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jmorecfg.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jpegint.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jpeglib.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\jpeg-8c\jversion.h">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\asm\qasm.h">
+      <Filter>asm</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\asm\qasm-inline.h">
+      <Filter>asm</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\autoupdater\rsa_tools\rsa_common.h">
+      <Filter>autoupdater\rsa_tools</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_debug.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_def.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_entity.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_file.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_funcs.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_main.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_move.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_optimize.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_reach.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_route.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_routealt.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_sample.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_interface.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\botlib.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_crc.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_libvar.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_log.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_memory.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_precomp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_script.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_struct.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\l_utils.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\aasfile.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_bsp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\botlib\be_aas_cluster.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\bsp.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\cm_local.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\cm_patch.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\cm_polylib.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\cm_public.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\ioapi.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\json.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\puff.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\q_platform.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\unzip.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\qcommon\vm_local.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\sdl\sdl_icon.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\server\server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\sys\sys_loadlib.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\sys\sys_local.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\sys\win_resource.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="spearmint\code\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spearmint\code\asm\ftola.asm">
+      <Filter>asm</Filter>
+    </None>
+    <None Include="spearmint\code\asm\matha.s">
+      <Filter>asm</Filter>
+    </None>
+    <None Include="spearmint\code\asm\snapvector.asm">
+      <Filter>asm</Filter>
+    </None>
+    <None Include="spearmint\code\asm\snd_mixa.s">
+      <Filter>asm</Filter>
+    </None>
+    <None Include="spearmint\code\asm\vm_x86_64.asm">
+      <Filter>asm</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="spearmint\code\sys\win_resource.rc">
+      <Filter>sys</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
