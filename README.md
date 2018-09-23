@@ -1,5 +1,7 @@
 # spearmint-msvc
 
+[![spearmint compiling and mohaa maps](https://img.youtube.com/vi/ptBOqD5Tye0/0.jpg)](https://www.youtube.com/watch?v=ptBOqD5Tye0)
+
 Currently works: engine, game, cgame, rend1, all you need to play nicely
 
 Start engine project in solution with these arguments: `+set vm_cgame 0 +set vm_game 0 +set sv_pure 0`
