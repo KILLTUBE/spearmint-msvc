@@ -196,12 +196,6 @@
     <ClCompile Include="mint-arena\code\botlib\l_libvar.c">
       <Filter>botlib</Filter>
     </ClCompile>
-    <ClCompile Include="mint-arena\code\botlib\l_log.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
-    <ClCompile Include="mint-arena\code\botlib\l_memory.c">
-      <Filter>botlib</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mint-arena\code\qcommon\q_platform.h">
@@ -358,12 +352,6 @@
       <Filter>botlib</Filter>
     </ClInclude>
     <ClInclude Include="mint-arena\code\botlib\l_libvar.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="mint-arena\code\botlib\l_log.h">
-      <Filter>botlib</Filter>
-    </ClInclude>
-    <ClInclude Include="mint-arena\code\botlib\l_memory.h">
       <Filter>botlib</Filter>
     </ClInclude>
   </ItemGroup>

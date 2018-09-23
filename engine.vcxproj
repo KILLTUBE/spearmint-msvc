@@ -74,6 +74,7 @@
     <IncludePath>$(SolutionDir)SDL2-2.0.8\include;$(SolutionDir)libtomcrypt-1.18.2\src\headers;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)</OutDir>
     <TargetName>spearmint_x86</TargetName>
+    <IntDir>$(Configuration)\engine</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
