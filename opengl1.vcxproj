@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\ztm\spearmint-msvc\SDL2-2.0.8\include;D:\ztm\spearmint-msvc\spearmint\code\jpeg-8c;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)SDL2-2.0.8\include;$(SolutionDir)spearmint\code\jpeg-8c;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -80,7 +80,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;USE_LOCAL_HEADERS;USE_RENDERER_DLOPEN;USE_INTERNAL_JPEG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>D:\ztm\spearmint-msvc\SDL2-2.0.8\VisualC\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)SDL2-2.0.8\VisualC\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(SolutionDir)spearmint-renderer-opengl1_x86.dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
