@@ -119,128 +119,128 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\mint-arena\code\cgame\cg_atmospheric.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_console.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_consolecmds.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_draw.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_drawtools.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_effects.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_ents.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_event.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_field.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_info.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_input.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_localents.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_main.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_marks.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_newdraw.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_particles.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_players.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_playerstate.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_polybus.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_predict.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_scoreboard.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_servercmds.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_snapshot.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_spawn.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_surface.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_syscalls.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_text.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_unlagged.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_view.c" />
-    <ClCompile Include="..\mint-arena\code\cgame\cg_weapons.c" />
-    <ClCompile Include="..\mint-arena\code\game\bg_lib.c" />
-    <ClCompile Include="..\mint-arena\code\game\bg_misc.c" />
-    <ClCompile Include="..\mint-arena\code\game\bg_pmove.c" />
-    <ClCompile Include="..\mint-arena\code\game\bg_slidemove.c" />
-    <ClCompile Include="..\mint-arena\code\game\bg_tracemap.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_addbots.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_atoms.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_cinematics.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_confirm.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_connect.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_controls2.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_credits.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_demo2.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_display.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_gameinfo.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_ingame.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_ingame_selectplayer.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_joystick.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_loadconfig.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_main.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_menu.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_mfield.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_mods.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_network.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_options.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_playermodel.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_players.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_playersettings.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_preferences.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_qmenu.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_removebots.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_saveconfig.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_selectplayer.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_serverinfo.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_servers2.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_setup.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_sound.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_sparena.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_specifyserver.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_splevel.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_sppostgame.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_spreset.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_spskill.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_startserver.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_team.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_teamorders.c" />
-    <ClCompile Include="..\mint-arena\code\q3_ui\ui_video.c" />
-    <ClCompile Include="..\mint-arena\code\qcommon\q_math.c" />
-    <ClCompile Include="..\mint-arena\code\qcommon\q_shared.c" />
-    <ClCompile Include="..\mint-arena\code\qcommon\q_unicode.c" />
-    <ClCompile Include="..\mint-arena\code\ui\ui_atoms.c">
+    <ClCompile Include="mint-arena\code\cgame\cg_atmospheric.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_console.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_consolecmds.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_draw.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_drawtools.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_effects.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_ents.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_event.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_field.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_info.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_input.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_localents.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_main.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_marks.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_newdraw.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_particles.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_players.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_playerstate.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_polybus.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_predict.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_scoreboard.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_servercmds.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_snapshot.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_spawn.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_surface.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_syscalls.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_text.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_unlagged.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_view.c" />
+    <ClCompile Include="mint-arena\code\cgame\cg_weapons.c" />
+    <ClCompile Include="mint-arena\code\game\bg_lib.c" />
+    <ClCompile Include="mint-arena\code\game\bg_misc.c" />
+    <ClCompile Include="mint-arena\code\game\bg_pmove.c" />
+    <ClCompile Include="mint-arena\code\game\bg_slidemove.c" />
+    <ClCompile Include="mint-arena\code\game\bg_tracemap.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_addbots.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_atoms.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_cinematics.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_confirm.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_connect.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_controls2.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_credits.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_demo2.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_display.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_gameinfo.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_ingame.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_ingame_selectplayer.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_joystick.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_loadconfig.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_main.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_menu.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_mfield.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_mods.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_network.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_options.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_playermodel.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_players.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_playersettings.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_preferences.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_qmenu.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_removebots.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_saveconfig.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_selectplayer.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_serverinfo.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_servers2.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_setup.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_sound.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_sparena.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_specifyserver.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_splevel.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_sppostgame.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_spreset.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_spskill.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_startserver.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_team.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_teamorders.c" />
+    <ClCompile Include="mint-arena\code\q3_ui\ui_video.c" />
+    <ClCompile Include="mint-arena\code\qcommon\q_math.c" />
+    <ClCompile Include="mint-arena\code\qcommon\q_shared.c" />
+    <ClCompile Include="mint-arena\code\qcommon\q_unicode.c" />
+    <ClCompile Include="mint-arena\code\ui\ui_atoms.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\mint-arena\code\ui\ui_gameinfo.c">
+    <ClCompile Include="mint-arena\code\ui\ui_gameinfo.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\mint-arena\code\ui\ui_main.c">
+    <ClCompile Include="mint-arena\code\ui\ui_main.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\mint-arena\code\ui\ui_players.c">
+    <ClCompile Include="mint-arena\code\ui\ui_players.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\mint-arena\code\ui\ui_shared.c">
+    <ClCompile Include="mint-arena\code\ui\ui_shared.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\mint-arena\code\cgame\cg_local.h" />
-    <ClInclude Include="..\mint-arena\code\cgame\cg_public.h" />
-    <ClInclude Include="..\mint-arena\code\cgame\cg_syscalls.h" />
-    <ClInclude Include="..\mint-arena\code\game\bg_lib.h" />
-    <ClInclude Include="..\mint-arena\code\game\bg_local.h" />
-    <ClInclude Include="..\mint-arena\code\game\bg_public.h" />
-    <ClInclude Include="..\mint-arena\code\q3_ui\ui_local.h" />
-    <ClInclude Include="..\mint-arena\code\qcommon\qfiles.h" />
-    <ClInclude Include="..\mint-arena\code\qcommon\q_platform.h" />
-    <ClInclude Include="..\mint-arena\code\qcommon\q_shared.h" />
-    <ClInclude Include="..\mint-arena\code\qcommon\q_unicode.h" />
-    <ClInclude Include="..\mint-arena\code\qcommon\surfaceflags.h" />
-    <ClInclude Include="..\mint-arena\code\qcommon\unicode_data.h" />
-    <ClInclude Include="..\mint-arena\code\ui\ui_local.h">
+    <ClInclude Include="mint-arena\code\cgame\cg_local.h" />
+    <ClInclude Include="mint-arena\code\cgame\cg_public.h" />
+    <ClInclude Include="mint-arena\code\cgame\cg_syscalls.h" />
+    <ClInclude Include="mint-arena\code\game\bg_lib.h" />
+    <ClInclude Include="mint-arena\code\game\bg_local.h" />
+    <ClInclude Include="mint-arena\code\game\bg_public.h" />
+    <ClInclude Include="mint-arena\code\q3_ui\ui_local.h" />
+    <ClInclude Include="mint-arena\code\qcommon\qfiles.h" />
+    <ClInclude Include="mint-arena\code\qcommon\q_platform.h" />
+    <ClInclude Include="mint-arena\code\qcommon\q_shared.h" />
+    <ClInclude Include="mint-arena\code\qcommon\q_unicode.h" />
+    <ClInclude Include="mint-arena\code\qcommon\surfaceflags.h" />
+    <ClInclude Include="mint-arena\code\qcommon\unicode_data.h" />
+    <ClInclude Include="mint-arena\code\ui\ui_local.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\mint-arena\code\ui\ui_public.h">
+    <ClInclude Include="mint-arena\code\ui\ui_public.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\mint-arena\code\ui\ui_shared.h">
+    <ClInclude Include="mint-arena\code\ui\ui_shared.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\mint-arena\code\game\bg_syscalls.asm" />
+    <None Include="mint-arena\code\game\bg_syscalls.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
