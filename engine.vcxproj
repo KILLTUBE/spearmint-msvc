@@ -340,15 +340,21 @@
     <ClInclude Include="spearmint\code\zlib\zutil.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="spearmint\code\asm\ftola.asm">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </None>
+    <CustomBuild Include="spearmint\code\asm\ftola.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /c /Zi /safeseh /Fo"$(OutDir)%(Filename).asm.obj" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename).asm.obj;%(Outputs)</Outputs>
+    </CustomBuild>
     <None Include="spearmint\code\asm\matha.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </None>
-    <None Include="spearmint\code\asm\snapvector.asm">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </None>
+    <CustomBuild Include="spearmint\code\asm\snapvector.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /c /Zi /safeseh /Fo"$(OutDir)%(Filename).asm.obj" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename).asm.obj;%(Outputs)</Outputs>
+    </CustomBuild>
     <None Include="spearmint\code\asm\snd_mixa.s">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </None>

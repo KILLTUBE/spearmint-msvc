@@ -580,13 +580,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="spearmint\code\asm\ftola.asm">
-      <Filter>asm</Filter>
-    </None>
     <None Include="spearmint\code\asm\matha.s">
-      <Filter>asm</Filter>
-    </None>
-    <None Include="spearmint\code\asm\snapvector.asm">
       <Filter>asm</Filter>
     </None>
     <None Include="spearmint\code\asm\snd_mixa.s">
@@ -595,5 +589,13 @@
     <None Include="spearmint\code\asm\vm_x86_64.asm">
       <Filter>asm</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="spearmint\code\asm\ftola.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spearmint\code\asm\snapvector.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
