@@ -69,14 +69,18 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;CGAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)\cgame.dll</OutputFile>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -195,11 +199,21 @@
     <ClCompile Include="..\mint-arena\code\qcommon\q_math.c" />
     <ClCompile Include="..\mint-arena\code\qcommon\q_shared.c" />
     <ClCompile Include="..\mint-arena\code\qcommon\q_unicode.c" />
-    <ClCompile Include="..\mint-arena\code\ui\ui_atoms.c" />
-    <ClCompile Include="..\mint-arena\code\ui\ui_gameinfo.c" />
-    <ClCompile Include="..\mint-arena\code\ui\ui_main.c" />
-    <ClCompile Include="..\mint-arena\code\ui\ui_players.c" />
-    <ClCompile Include="..\mint-arena\code\ui\ui_shared.c" />
+    <ClCompile Include="..\mint-arena\code\ui\ui_atoms.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\ui\ui_gameinfo.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\ui\ui_main.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\ui\ui_players.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\mint-arena\code\ui\ui_shared.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\mint-arena\code\cgame\cg_local.h" />
@@ -215,9 +229,15 @@
     <ClInclude Include="..\mint-arena\code\qcommon\q_unicode.h" />
     <ClInclude Include="..\mint-arena\code\qcommon\surfaceflags.h" />
     <ClInclude Include="..\mint-arena\code\qcommon\unicode_data.h" />
-    <ClInclude Include="..\mint-arena\code\ui\ui_local.h" />
-    <ClInclude Include="..\mint-arena\code\ui\ui_public.h" />
-    <ClInclude Include="..\mint-arena\code\ui\ui_shared.h" />
+    <ClInclude Include="..\mint-arena\code\ui\ui_local.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\ui\ui_public.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\mint-arena\code\ui\ui_shared.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\mint-arena\code\game\bg_syscalls.asm" />

@@ -11,9 +11,6 @@
     <Filter Include="qcommon">
       <UniqueIdentifier>{87c7d828-ad50-45ba-a3d1-be5792763db0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="botlib">
-      <UniqueIdentifier>{8fbb2a3a-b106-4923-862c-eab2f89fbe49}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\mint-arena\code\qcommon\q_math.c">
